@@ -1524,7 +1524,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!1 &596745731
 GameObject:
   m_ObjectHideFlags: 0
@@ -3559,6 +3559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoretxt: {fileID: 105166118}
+  timertxt: {fileID: 165998156}
 --- !u!4 &1561617213
 Transform:
   m_ObjectHideFlags: 0

@@ -33,15 +33,18 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        timeleft -= Time.deltaTime;
-        timeremaining = Mathf.FloorToInt(timeleft % 60);
-        timertxt.text = "Timer: " + timeremaining.ToString();
-
-        if(score == totalscore)
+        if (timeleft > 0f)
         {
-            SceneManager.LoadScene(1);
+            timeleft -= Time.deltaTime;
+            timeremaining = Mathf.FloorToInt(timeleft % 60);
+            timertxt.text = "Timer: " + timeremaining.ToString();
+
+            if (score == totalscore)
+            {
+                SceneManager.LoadScene(1);
+            }
         }
-        else if(timeleft <= 0)
+        else
         {
             SceneManager.LoadScene(2);
         }
