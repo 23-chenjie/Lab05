@@ -797,7 +797,7 @@ GameObject:
   - component: {fileID: 429442794}
   m_Layer: 0
   m_Name: Coin
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1143,6 +1143,7 @@ GameObject:
   - component: {fileID: 514179201}
   - component: {fileID: 511306081}
   - component: {fileID: 504244545}
+  - component: {fileID: 513957026}
   - component: {fileID: 519159745}
   - component: {fileID: 517915969}
   m_Layer: 0
@@ -1152,6 +1153,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &513957026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513957025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5549ffbcb56f028478eefce2d79caad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &513957027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,7 +1573,7 @@ GameObject:
   - component: {fileID: 737097059}
   m_Layer: 0
   m_Name: Coin (3)
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1761,7 +1774,7 @@ GameObject:
   - component: {fileID: 917225549}
   m_Layer: 0
   m_Name: Coin (2)
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1870,7 +1883,7 @@ GameObject:
   - component: {fileID: 947686554}
   m_Layer: 0
   m_Name: Coin (4)
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2162,7 +2175,7 @@ GameObject:
   - component: {fileID: 1072585052}
   m_Layer: 0
   m_Name: Coin (1)
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2271,7 +2284,7 @@ GameObject:
   - component: {fileID: 1091618245}
   m_Layer: 0
   m_Name: Coin (5)
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
