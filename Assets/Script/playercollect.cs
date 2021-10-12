@@ -8,8 +8,8 @@ public class playercollect : MonoBehaviour
     {
         if(collider.gameObject.tag == "Player")
         {
+            GameManager.instance.addscore(10);
             Destroy(gameObject);
-            Debug.Log("yes");
         }
     }
 }
